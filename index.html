@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+        <div class="form-group">
+            <label for="taskCount">Number of Tasks to Fetch:</label>
+            <input type="number" id="taskCount" min="1" value="5" required>
+        </div>
+        <button class="btn" onclick="fetchTasks()">FETCH TODOS</button>
+        <div id="taskList"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
